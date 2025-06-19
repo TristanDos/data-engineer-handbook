@@ -1,0 +1,17 @@
+[project]
+name = "tristan-dws"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Tristan Dos Remendos", email = "tristan.remendos.dev@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "tristan_dws", from = "src" }]
